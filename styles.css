@@ -1,0 +1,103 @@
+/* Color palette */
+.sand {
+    color: #F1DBBF;
+}
+
+.forest {
+    color: #698269;
+}
+
+.dirt {
+    color: #B99B6B;
+}
+
+.maroon {
+    color: #AA5656;
+}
+
+
+/* Setting the background color of the website. */
+#background { 
+    background-color: #B99B6B;
+}
+
+/* Font and color of "Hello, my name is Lam Nguyen." */
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    color: #698269;
+    text-align: right;
+    margin-right: 5%;
+}
+
+/* Font and color of "About Me, Work, and Contact Me" section headers. */
+.heading {
+    font-family: 'Copperplate', fantasy;
+    color: #F1DBBF;
+    margin-left: 5%
+}
+
+/* Hovering over the headers enlarges them. */
+.heading:hover {
+    font-size: xx-large;
+}
+
+/* Content is all the text that is maroon. */
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10%;
+    width: 80%;
+}
+
+#image {
+    margin-left: 15%;
+    width: 70%;
+}
+
+/* Grid Layout Classes */
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+.leftColumn {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.rightColumn {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+/* Social Media buttons from w3schools.com */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.onethird {
+    margin-left: 20%;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
