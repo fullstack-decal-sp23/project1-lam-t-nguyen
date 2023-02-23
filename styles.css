@@ -15,6 +15,7 @@
     color: #AA5656;
 }
 
+/* Opacity for all elements should be standard at 1. */
 * {
     opacity: 1;
 }
